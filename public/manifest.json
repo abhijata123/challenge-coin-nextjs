@@ -1,0 +1,22 @@
+{
+  "name": "Braav Challenge Coin Forum",
+  "short_name": "Braav",
+  "description": "Share, discover, and connect with challenge coin enthusiasts",
+  "theme_color": "#0d182a",
+  "background_color": "#0d182a",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "https://coins.braav.co",
+  "icons": [
+    {
+      "src": "/braavco_logo_512x512.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/braavco_logo_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
