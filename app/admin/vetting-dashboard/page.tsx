@@ -2,9 +2,9 @@
 
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { useAuthStore } from '../../../src/store/authStore';
-import { VettingAdminDashboard } from '../../../src/pages/VettingAdminDashboard';
-import { Layout } from '../../../src/components/Layout';
+import { useAuthStore } from '../../store/authStore';
+import { VettingAdminDashboard } from '../../pages/VettingAdminDashboard';
+import { Layout } from '../../components/Layout';
 
 const AUTHORIZED_ADMINS = [
   'anna+test@braav.co',

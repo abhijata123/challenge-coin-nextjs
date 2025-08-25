@@ -2,9 +2,9 @@
 
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { useAuthStore } from '../../src/store/authStore';
-import { Collection } from '../../src/pages/Collection';
-import { Layout } from '../../src/components/Layout';
+import { useAuthStore } from '../store/authStore';
+import { Collection } from '../pages/Collection';
+import { Layout } from '../components/Layout';
 
 export default function MyCollectionPage() {
   const { user, loading } = useAuthStore();

@@ -2,9 +2,9 @@
 
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { useAuthStore } from '../../src/store/authStore';
-import { DisplayRestrictedNFT } from '../../src/pages/DisplayRestrictedNFT';
-import { Layout } from '../../src/components/Layout';
+import { useAuthStore } from '../store/authStore';
+import { DisplayRestrictedNFT } from '../pages/DisplayRestrictedNFT';
+import { Layout } from '../components/Layout';
 
 export default function DisplayRestrictedNFTPage() {
   const { user, loading } = useAuthStore();

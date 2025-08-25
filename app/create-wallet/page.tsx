@@ -2,9 +2,9 @@
 
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { useAuthStore } from '../../src/store/authStore';
-import { CreateCustodialWallet } from '../../src/pages/CreateCustodialWallet';
-import { Layout } from '../../src/components/Layout';
+import { useAuthStore } from '../store/authStore';
+import { CreateCustodialWallet } from '../pages/CreateCustodialWallet';
+import { Layout } from '../components/Layout';
 
 export default function CreateWalletPage() {
   const { user, loading } = useAuthStore();

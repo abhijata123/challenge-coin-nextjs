@@ -2,9 +2,9 @@
 
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { useAuthStore } from '../../src/store/authStore';
-import { MintNFT } from '../../src/pages/MintNFT';
-import { Layout } from '../../src/components/Layout';
+import { useAuthStore } from '../store/authStore';
+import { MintNFT } from '../pages/MintNFT';
+import { Layout } from '../components/Layout';
 
 export default function MintNFTsPage() {
   const { user, loading } = useAuthStore();

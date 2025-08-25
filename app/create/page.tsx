@@ -2,10 +2,10 @@
 
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { useAuthStore } from '../../src/store/authStore';
-import { useAdminStore } from '../../src/store/adminStore';
-import { CreateCoin } from '../../src/pages/CreateCoin';
-import { Layout } from '../../src/components/Layout';
+import { useAuthStore } from '../store/authStore';
+import { useAdminStore } from '../store/adminStore';
+import { CreateCoin } from '../pages/CreateCoin';
+import { Layout } from '../components/Layout';
 
 export default function CreatePage() {
   const { user, loading } = useAuthStore();

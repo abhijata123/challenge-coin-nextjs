@@ -2,9 +2,9 @@
 
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { useAuthStore } from '../../src/store/authStore';
-import { Upload } from '../../src/pages/Upload';
-import { Layout } from '../../src/components/Layout';
+import { useAuthStore } from '../store/authStore';
+import { Upload } from '../pages/Upload';
+import { Layout } from '../components/Layout';
 
 export default function UploadPage() {
   const { user, loading } = useAuthStore();

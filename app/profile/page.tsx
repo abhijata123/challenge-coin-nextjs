@@ -2,9 +2,9 @@
 
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { useAuthStore } from '../../src/store/authStore';
-import { UserDetails } from '../../src/pages/UserDetails';
-import { Layout } from '../../src/components/Layout';
+import { useAuthStore } from '../store/authStore';
+import { UserDetails } from '../pages/UserDetails';
+import { Layout } from '../components/Layout';
 
 export default function ProfilePage() {
   const { user, loading } = useAuthStore();

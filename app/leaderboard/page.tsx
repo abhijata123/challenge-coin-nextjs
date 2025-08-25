@@ -2,9 +2,9 @@
 
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { useAuthStore } from '../../src/store/authStore';
-import { Leaderboard } from '../../src/pages/Leaderboard';
-import { Layout } from '../../src/components/Layout';
+import { useAuthStore } from '../store/authStore';
+import { Leaderboard } from '../pages/Leaderboard';
+import { Layout } from '../components/Layout';
 
 export default function LeaderboardPage() {
   const { user, loading } = useAuthStore();

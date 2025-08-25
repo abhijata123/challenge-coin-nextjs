@@ -2,9 +2,9 @@
 
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { useAuthStore } from '../../src/store/authStore';
-import { Notifications } from '../../src/pages/Notifications';
-import { Layout } from '../../src/components/Layout';
+import { useAuthStore } from '../store/authStore';
+import { Notifications } from '../pages/Notifications';
+import { Layout } from '../components/Layout';
 
 export default function NotificationsPage() {
   const { user, loading } = useAuthStore();

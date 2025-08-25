@@ -1,6 +1,6 @@
 'use client';
 
-import { Login } from '../../src/pages/Login';
+import { Login } from '../pages/Login';
 
 export default function LoginPage() {
   return <Login />;

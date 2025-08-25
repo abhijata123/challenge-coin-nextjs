@@ -2,9 +2,9 @@
 
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { useAuthStore } from '../../src/store/authStore';
-import { CoinForum } from '../../src/pages/CoinForum';
-import { Layout } from '../../src/components/Layout';
+import { useAuthStore } from '../store/authStore';
+import { CoinForum } from '../pages/CoinForum';
+import { Layout } from '../components/Layout';
 
 export default function ForumPage() {
   const { user, loading } = useAuthStore();

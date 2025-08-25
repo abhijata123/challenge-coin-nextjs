@@ -2,9 +2,9 @@
 
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { useAuthStore } from '../../src/store/authStore';
-import { CreateSupply } from '../../src/pages/CreateSupply';
-import { Layout } from '../../src/components/Layout';
+import { useAuthStore } from '../store/authStore';
+import { CreateSupply } from '../pages/CreateSupply';
+import { Layout } from '../components/Layout';
 
 export default function CreateSupplyPage() {
   const { user, loading } = useAuthStore();

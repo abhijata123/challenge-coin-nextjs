@@ -2,9 +2,9 @@
 
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { useAuthStore } from '../../src/store/authStore';
-import { Events } from '../../src/pages/Events';
-import { Layout } from '../../src/components/Layout';
+import { useAuthStore } from '../store/authStore';
+import { Events } from '../pages/Events';
+import { Layout } from '../components/Layout';
 
 export default function EventsPage() {
   const { user, loading } = useAuthStore();

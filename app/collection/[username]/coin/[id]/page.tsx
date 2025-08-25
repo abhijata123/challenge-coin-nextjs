@@ -1,6 +1,6 @@
 'use client';
 
-import { PublicCoinDetails } from '../../../../../src/pages/PublicCoinDetails';
+import { PublicCoinDetails } from '../../../../pages/PublicCoinDetails';
 
 export default function PublicCoinDetailsPage() {
   return <PublicCoinDetails />;

@@ -2,9 +2,9 @@
 
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { useAuthStore } from '../../src/store/authStore';
-import { SubmitVettingRequests } from '../../src/pages/SubmitVettingRequests';
-import { Layout } from '../../src/components/Layout';
+import { useAuthStore } from '../store/authStore';
+import { SubmitVettingRequests } from '../pages/SubmitVettingRequests';
+import { Layout } from '../components/Layout';
 
 export default function SubmitVettingRequestsPage() {
   const { user, loading } = useAuthStore();

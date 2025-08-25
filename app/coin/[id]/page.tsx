@@ -2,9 +2,9 @@
 
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { useAuthStore } from '../../../src/store/authStore';
-import { CoinDetails } from '../../../src/pages/CoinDetails';
-import { Layout } from '../../../src/components/Layout';
+import { useAuthStore } from '../../store/authStore';
+import { CoinDetails } from '../../pages/CoinDetails';
+import { Layout } from '../../components/Layout';
 
 export default function CoinDetailsPage() {
   const { user, loading } = useAuthStore();

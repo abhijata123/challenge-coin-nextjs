@@ -2,9 +2,9 @@
 
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { useAuthStore } from '../src/store/authStore';
-import { Posts } from '../src/pages/Posts';
-import { Layout } from '../src/components/Layout';
+import { useAuthStore } from './store/authStore';
+import { Posts } from './pages/Posts';
+import { Layout } from './components/Layout';
 
 export default function HomePage() {
   const { user, loading } = useAuthStore();
