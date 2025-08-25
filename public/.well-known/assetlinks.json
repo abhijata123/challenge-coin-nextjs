@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "co.braav.coins.twa",
+        "sha256_cert_fingerprints": ["07:E0:FE:D1:D9:01:F7:46:BC:CB:29:84:43:AF:0F:27:84:1B:BA:33:8E:4F:78:1F:93:CA:C4:5A:94:1F:22:78"]
+      }
+    }]
